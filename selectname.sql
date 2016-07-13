@@ -31,3 +31,16 @@ SELECT name FROM world
  WHERE name LIKE '____';
  
  
+ SELECT name
+FROM world
+WHERE name = capital
+
+SELECT name, capital
+  FROM world
+ WHERE capital = concat(name, ' city')
+ 
+ SELECT name, capital FROM world
+WHERE capital LIKE concat(name, '%')
+ 
+ 
+ 
